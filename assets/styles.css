@@ -1,0 +1,38 @@
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+}
+.p-3{
+    padding: 1rem;
+}
+.w-4{
+    width: 24%;
+    margin-right: 10px;
+}
+.thumb {
+    width: 100%;
+}
+.thumb img{
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+    .w-4{
+        width: 48%;
+        margin-right: 10px;
+    }
+    
+  }
+  
+
+@media screen and (max-width: 600px) {
+    .flex{
+        flex-direction: column;
+    }
+    .w-4{
+        width: 100%;
+    }
+}

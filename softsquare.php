@@ -9,7 +9,7 @@
 //Styles & Scripts
 function softsquare_scripts(){
 
-  wp_enqueue_style( 'softsqaure-product', get_template_directory_uri() . '/assets/styles.css',false,'1.1','all');
+  wp_enqueue_style( 'softsqaure-product', plugin_dir_url( __FILE__ ). 'assets/styles.css',false,'1.1','all');
 
 
 } 
